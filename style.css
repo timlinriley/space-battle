@@ -1,0 +1,75 @@
+.gameBox{
+    width: 500px;
+    height: 500px;
+    border: solid black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.player{
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    position: relative;
+    top: 400px;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+
+.comp{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    position: relative;
+    top: 400px;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+.btn{
+    border: solid black;
+    width: 100px;
+    height: 20px;
+}
+.healthDiv{
+    display: flex;
+    height: 40px;
+    width: 500px;
+    border:solid black;
+}
+.playerH{
+    width: 50%;
+    border:solid yellow;
+    text-align: center;
+
+}
+
+.compH{
+    width: 50%;
+    border: solid blue;
+    text-align: center;
+}
+.btnholder{
+    display:flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.ship{
+    display: flex;
+    height: 40px;
+    width: 500px;
+    border:solid black;
+}
+.playership{
+    width: 50%;
+    border:solid yellow;
+    text-align: center;
+
+}
+
+.comphship{
+    width: 50%;
+    border: solid blue;
+    text-align: center;
+}
